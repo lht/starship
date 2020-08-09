@@ -355,6 +355,7 @@ pub fn parse_style_string(style_string: &str) -> Option<ansi_term::Style> {
                     "bold" => Some(style.bold()),
                     "italic" => Some(style.italic()),
                     "dimmed" => Some(style.dimmed()),
+                    "blink" => Some(style.blink()),
                     "none" => None,
 
                     // Try to see if this token parses as a valid color string
