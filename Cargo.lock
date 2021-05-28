@@ -1913,9 +1913,9 @@ checksum = "5fecdca9a5291cc2b8dcf7dc02453fee791a280f3743cb0905f8822ae463b3fe"
 
 [[package]]
 name = "versions"
-version = "3.0.0"
+version = "3.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b5b43641699678003583a8be31f497a1c1fb875a93213f3037036b1462c26c6"
+checksum = "3173e24d44089f21bfd915fb1bbe27e4d1409893e6ac01decb7654bdaae1d2b9"
 dependencies = [
  "itertools",
  "nom",
